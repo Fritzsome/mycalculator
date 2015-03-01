@@ -5,37 +5,37 @@
 
 public class MyCalculator {
 	// add two numbers
-	public float add(float a,float b){
+	public static float add(float a,float b){
 		return a+b;
 	}
 	
 	// subtract two numbers
-	public float subtract(float a,float b){
+	public static float subtract(float a,float b){
 		return a-b;
 	}
 	
 	// multiply two numbers
-	public float multiply(float a,float b){
+	public static float multiply(float a,float b){
 		return a*b;
 	}
 	
 	// divide two numbers
-	public float divide(float a,float b){
+	public static float divide(float a,float b){
 		return a/b;
 	}
 	
 	// x^2 of two numbers
-	public float square(int x){
+	public static float square(int x){
 		return x*x;
 	}
 	
 	// x^3 of three numbers
-	public float cube(int x){
+	public static float cube(int x){
 		return x*x*x;
 	}
 	
 	// n! of an integer
-	public int nfactorial(int n){
+	public static int nfactorial(int n){
 		int factorial = 1;
 		
 		for(int i=1;i<=n;i++)//it should be i<=n
@@ -45,7 +45,7 @@ public class MyCalculator {
 	}
 	
 	// binary search in an array
-	int binarySearch(int[] a,int x){
+	static int binarySearch(int[] a,int x){
 		int n = a.length; // get number of elements in the array
 		int lower, upper, middle; // variables for positions in the array
 		lower = 0; upper = n-1; // initialize values of lower and upper points
